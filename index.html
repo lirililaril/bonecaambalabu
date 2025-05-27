@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Letter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script src="animation.js"></script>
+  </head>
+
+  <body>
+    <audio loop id="bgm">
+      <source src="bgm.mp3" type="audio/mpeg" />
+    </audio>
+    <div id="main">
+      <div id="letter">
+        <p>Valahogy azokra a reggelekre emlékeztetsz，</p>
+        <p>amikor az erdő még álmodik，</p>
+        <p>amikor a fény még nem döntötte el hogyan szeretne átesni a levelek közt.</p>
+        <p>Van valami gyengéd és arany, aminek a közepén te létezel，</p>
+        <p>mintha az univerzum bizonyítani akarta volna, hogy még hisz a gyönyörben.</p>
+        <br />
+        <p>Nem teszek úgy, mintha teljesen ismernélek，</p>
+        <p>De tudom milyen vágyni, és kívánni.</p>
+        <p>Kívánni，hogy tudd megérdemled hogy színben lássanak.</p>
+        <p>Egy olyan hajnal vagy amit nem sokan látnak,</p>
+        <p>de akik igen sohasem felejtik.</p>
+      </div>
+      <div id="clock-box">
+        <div id="clock-text">
+          <span class="name">Krisa</span> és
+          <span class="name">Dávid</span> <3 
+        </div>
+        <div id="clock"></div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <input type="hidden" id="memorialDate" value="2025-05-25T00:00:00" />
+    <script src="app.js"></script>
+  </body>
+</html>
